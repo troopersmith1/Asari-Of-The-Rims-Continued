@@ -69,7 +69,7 @@
 								</li>
 								<li>
 									<weight>30</weight>
-									<only>RGBA(70, 130, 180, 255)</only>
+									<only>RGBA(119, 163, 165, 255)</only>
 								</li>
 								<li>
 									<weight>10</weight>
@@ -80,18 +80,59 @@
 					</li>
 				</colorChannels>
 			    <aliencrowntypes>
-					<li>Average_Normal_01</li>
-					<li>Average_Normal_02</li>
-					<li>Average_Normal_03</li>
-					<li>Average_Normal_04</li>
-					<li>Average_Normal_05</li>
-					<li>Average_Normal_06</li>
-					<li>Average_Normal_07</li>
+					<li>Average_Normal</li>
                 </aliencrowntypes>
-				 <alienbodytypes>
-				 <li>Thin</li>
-				 <li>Female</li>
+				<alienbodytypes>
+					<li>Thin</li>
+					<li>Female</li>
                 </alienbodytypes>
+				<bodyAddons>
+					<li>
+						<path>Things/Pawn/Humanlike/Asari/Paint/tattoo</path>
+						<bodyPart>Head</bodyPart>
+						<inFrontOfBody>true</inFrontOfBody>
+						<layerInvert>false</layerInvert>
+						<layerOffset>-0.27</layerOffset>
+						<drawnInBed>true</drawnInBed>
+						<colorChannel>base</colorChannel>
+						<offsets>
+							<south>
+								<bodyTypes>
+									<Female>(0.0,0.0)</Female>
+									<Thin>(0.0,0.0)</Thin>
+								</bodyTypes>
+								<portraitBodyTypes>
+									<Female>(0.0,0.0)</Female>
+									<Thin>(0.0,0.0)</Thin>
+								</portraitBodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.41,0.55)</Average_Normal>
+								</crownTypes>
+								<portraitCrownTypes>
+									<Average_Normal>(-0.41,0.55)</Average_Normal>
+								</portraitCrownTypes>
+							</south>
+							<north>
+								<bodyTypes>
+									<Female>(0.0,0.0)</Female>
+									<Thin>(0.0,0.0)</Thin>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.41,0.55)</Average_Normal>
+								</crownTypes>
+							</north>
+							<east>
+								<bodyTypes>
+									<Female>(0.0,0.0)</Female>
+									<Thin>(0.0,0.0)</Thin>
+								</bodyTypes>
+								<crownTypes>
+									<Average_Normal>(-0.5, 0.55)</Average_Normal>
+								</crownTypes>
+							</east>
+						</offsets>
+					</li>
+				</bodyAddons>
 			</alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
@@ -267,8 +308,8 @@
 	<alienRace>
 	        <graphicPaths>
 				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body_lightblue/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head_lightblue/</head>
+					<body>Things/Pawn/Humanlike/Asari/Body/</body>
+					<head>Things/Pawn/Humanlike/Asari/Head/</head>
 				</li>
 			</graphicPaths>
 	</alienRace>
@@ -281,8 +322,8 @@
 	<alienRace>
 	        <graphicPaths>
 				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body_lightblue/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head_lightblue/</head>
+					<body>Things/Pawn/Humanlike/Asari/Body/</body>
+					<head>Things/Pawn/Humanlike/Asari/Head/</head>
 				</li>
 			</graphicPaths>
 	</alienRace>		
@@ -294,8 +335,8 @@
 	<alienRace>
 	        <graphicPaths>
 				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body_lightblue/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head_lightblue/</head>
+					<body>Things/Pawn/Humanlike/Asari/Body/</body>
+					<head>Things/Pawn/Humanlike/Asari/Head/</head>
 				</li>
 			</graphicPaths>
 	</alienRace>
@@ -308,8 +349,8 @@
 	<alienRace>
 	        <graphicPaths>
 				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body_lightblue/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head_lightblue/</head>
+					<body>Things/Pawn/Humanlike/Asari/Body/</body>
+					<head>Things/Pawn/Humanlike/Asari/Head/</head>
 				</li>
 			</graphicPaths>
   </alienRace>
