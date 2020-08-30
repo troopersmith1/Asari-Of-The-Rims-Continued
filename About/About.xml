@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>RimEffect - Asari of the Rims</name>
+	<name>RimEffect - Asari of the Rims Continued [1.1][1.2]</name>
 	<author>Troopersmith1 - Helixien - Xen</author>
 	<url>https://ludeon.com/forums/index.php?topic=29115.0</url>
 	<supportedVersions>
@@ -14,12 +14,13 @@ It is lost to history what exactly happened and how the Asari Union came to be, 
 Features:
 - New, fully playable race: The Asari from the ME Universe! They work just like normal humans! 
 - They come in 4 different colours: Blue, Violet, Light Blue and Green! 
-- Each skin color has 7 different head versions! 
-- They bleed pruple, not red! 
+- Each skin color has multiple different head versions! 
+- They bleed purple, not red! 
 - Custom life stages! Just like the real ones! 
 - Custom names! Yes! They all have names like the asari in ME! 
 - They live up to 1000 years! 
-- They work like a vanilla faction! They send visitors and traders and maybe even attack you! 
+- They work like a vanilla faction! They send visitors and traders and maybe even attack you!
+- CE Compatible!
 
 Credits: 
 Carnov (Textures) 
@@ -28,5 +29,6 @@ Erdelf (Humanoid Alien Races modern)
 Helixien (Original mod)
 Xen (2.0 revamp, updates and maintenance)
 Troopersmith1 (1.2 update and update to new version of Humanoid Alien Race)
+Kixunio (Updated textures)
 </description>
 </ModMetaData>

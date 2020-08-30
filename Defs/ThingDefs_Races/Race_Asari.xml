@@ -78,6 +78,17 @@
 							</options>
 						</first>
 					</li>
+					<li>
+						<name>tattoo</name>
+						<first Class="ColorGenerator_Options">
+							<options>
+								<li>
+									<weight>30</weight>
+									<only>RGBA(240, 240, 230, 255)</only>
+								</li>
+							</options>
+						</first>
+					</li>
 				</colorChannels>
 			    <aliencrowntypes>
 					<li>Average_Normal</li>
@@ -94,7 +105,7 @@
 						<layerInvert>false</layerInvert>
 						<layerOffset>-0.27</layerOffset>
 						<drawnInBed>true</drawnInBed>
-						<colorChannel>base</colorChannel>
+						<colorChannel>tattoo</colorChannel>
 						<offsets>
 							<south>
 								<bodyTypes>
