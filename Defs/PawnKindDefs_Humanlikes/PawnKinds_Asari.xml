@@ -5,13 +5,14 @@
 
   <PawnKindDef Name="AsariBase" Abstract="True">
     <defaultFactionType>AsariUnion</defaultFactionType>
-    <race>Alien_Asari_Blue</race>
+    <race>Alien_Asari</race>
     <chemicalAddictionChance>0.035</chemicalAddictionChance>
     <baseRecruitDifficulty>0.70</baseRecruitDifficulty>
     <backstoryFilters>
 			<li>
       <categories>
 			<li>Civil</li>
+			<li>Outlander</li>
       </categories>
       </li>
   	</backstoryFilters>
@@ -25,6 +26,76 @@
       <li>SpacerMilitary</li>
     </apparelTags>
   </PawnKindDef>
+  
+   <!-- ============================ Asari Slave Base ========================== -->
+ 
+  <PawnKindDef Name="AsariSlaveBase" ParentName="AsariBase" Abstract="True">
+    <combatPower>25</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>1.3</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>500</max>
+    </apparelMoney>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>1.55</invNutrition>
+    <inventoryOptions>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+    <!-- ============================ Asari Slaves ========================== -->
+  
+    <PawnKindDef ParentName="AsariSlaveBase">
+		<defName>AsariSlave</defName>
+		<label>asari slave</label>
+		<race>Alien_Asari</race>
+	</PawnKindDef>
+	
+	   <!-- ============================ Asari Refugee Base ========================== -->
+ 
+  <PawnKindDef Name="AsariRefugeeBase" ParentName="AsariBase" Abstract="True">
+    <combatPower>25</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.3</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>500</max>
+    </apparelMoney>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.01</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+    <!-- ============================ Asari Refugees ========================== -->
+  
+    <PawnKindDef ParentName="AsariRefugeeBase">
+		<defName>AsariRefugee</defName>
+		<label>asari refugee</label>
+		<race>Alien_Asari</race>
+	</PawnKindDef>
   
   <!-- ============================ Asari Civilian Base ========================== -->
 
@@ -83,26 +154,14 @@
   <!-- ============================ Asari Civilians ========================== -->
   
   <PawnKindDef ParentName="AsariCivBase">
-    <defName>AsariColonist01</defName>
+    <defName>AsariColonist</defName>
     <label>colonist</label>
-    <race>Alien_Asari_Blue</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariCivBase">
-    <defName>AsariColonist02</defName>
-    <label>colonist</label>
-    <race>Alien_Asari_Violet</race>
-  </PawnKindDef>
-
-  <PawnKindDef ParentName="AsariCivBase">
-    <defName>AsariColonist03</defName>
-    <label>colonist</label>
-    <race>Alien_Asari_Lightblue</race>
+    <race>Alien_Asari</race>
   </PawnKindDef>
 
   <PawnKindDef ParentName="AsariCivBase">
     <defName>AsariMatriarch</defName>
-    <race>Alien_Asari_Green</race>
+    <race>Alien_Asari</race>
     <label>matriarch</label>
     <labelPlural>matriarchs</labelPlural>
     <factionLeader>true</factionLeader>
@@ -111,32 +170,18 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="AsariCivBase">
-    <defName>AsariTrader01</defName>
+    <defName>AsariTrader</defName>
     <label>colony trader</label>
     <trader>true</trader>
-    <race>Alien_Asari_Blue</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariCivBase">
-    <defName>AsariTrader02</defName>
-    <label>colony trader</label>
-    <trader>true</trader>
-    <race>Alien_Asari_Violet</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariCivBase">
-    <defName>AsariTrader03</defName>
-    <label>colony trader</label>
-    <race>Alien_Asari_Lightblue</race>
-    <trader>true</trader>
+    <race>Alien_Asari</race>
   </PawnKindDef>
   
   <!-- ============================ Asari Security ========================== -->
   
   <PawnKindDef Name="AsariSecurityGuard" ParentName="AsariCivBase">
-    <defName>AsariSecurityGuard01</defName>
+    <defName>AsariSecurityGuard</defName>
     <label>security guard</label>
-    <race>Alien_Asari_Blue</race>
+    <race>Alien_Asari</race>
     <combatPower>50</combatPower>
     <maxGenerationAge>600</maxGenerationAge>
     <gearHealthRange>
@@ -171,18 +216,6 @@
         <max>100</max>
       </countRange>
     </inventoryOptions>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariSecurityGuard">
-    <defName>AsariSecurityGuard02</defName>
-    <label>security guard</label>
-    <race>Alien_Asari_Violet</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariSecurityGuard">
-    <defName>AsariSecurityGuard03</defName>
-    <label>security guard</label>
-    <race>Alien_Asari_Lightblue</race>
   </PawnKindDef>
   
   <!-- ============================ Asari Military Base ========================== -->
@@ -240,30 +273,16 @@
   <!-- ============================ Asari Military ========================== -->
   
   <PawnKindDef ParentName="AsariMilBase">
-    <defName>AsariRecruit01</defName>
+    <defName>AsariRecruit</defName>
     <label>recruit</label>
     <combatPower>70</combatPower>
-    <race>Alien_Asari_Violet</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariMilBase">
-    <defName>AsariRecruit02</defName>
-    <label>recruit</label>
-    <combatPower>70</combatPower>
-    <race>Alien_Asari_Lightblue</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariMilBase">
-    <defName>AsariRecruit03</defName>
-    <label>recruit</label>
-    <combatPower>70</combatPower>
-    <race>Alien_Asari_Blue</race>
+    <race>Alien_Asari</race>
   </PawnKindDef>
   
   <PawnKindDef Name="AsariHuntresses" ParentName="AsariMilBase">
-    <defName>AsariHuntresses01</defName>
+    <defName>AsariHuntress</defName>
     <label>huntresses</label>
-    <race>Alien_Asari_Blue</race>
+    <race>Alien_Asari</race>
     <combatPower>90</combatPower>
     <minGenerationAge>100</minGenerationAge>
     <gearHealthRange>
@@ -318,22 +337,11 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="AsariHuntresses">
-    <defName>AsariHuntresses02</defName>
-    <label>huntresses</label>
-    <race>Alien_Asari_Violet</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariHuntresses">
-    <defName>AsariHuntresses03</defName>
-    <label>huntresses</label>
-    <race>Alien_Asari_Lightblue</race>
-  </PawnKindDef>
 
   <PawnKindDef Name="AsariCommando" ParentName="AsariMilBase">
-    <defName>AsariCommando01</defName>
+    <defName>AsariCommando</defName>
     <label>commando</label>
-    <race>Alien_Asari_Blue</race>
+    <race>Alien_Asari</race>
     <combatPower>135</combatPower>
     <minGenerationAge>200</minGenerationAge>
     <gearHealthRange>
@@ -388,22 +396,10 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="AsariCommando">
-    <defName>AsariCommando02</defName>
-    <label>commando</label>
-    <race>Alien_Asari_Violet</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariCommando">
-    <defName>AsariCommando03</defName>
-    <label>commando</label>
-    <race>Alien_Asari_Lightblue</race>
-  </PawnKindDef>
-  
   <PawnKindDef Name="AsariCommandoElite" ParentName="AsariCommando">
-     <defName>AsariCommandoElite01</defName>
+     <defName>AsariCommandoElite</defName>
     <label>elite commando</label>
-    <race>Alien_Asari_Blue</race>
+    <race>Alien_Asari</race>
     <combatPower>220</combatPower>
     <minGenerationAge>300</minGenerationAge>
     <gearHealthRange>
@@ -423,8 +419,8 @@
       <max>2000</max>
     </weaponMoney>
     <weaponTags>
-			<li>EliteGun</li>
-      <li>AdvancedGun</li>
+		<li>EliteGun</li>
+		<li>AdvancedGun</li>
     </weaponTags>
     <techHediffsMoney>
       <min>2000</min>
@@ -458,24 +454,6 @@
         </li>
       </subOptionsChooseOne>
     </inventoryOptions>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariCommandoElite">
-     <defName>AsariCommandoElite02</defName>
-    <label>elite commando</label>
-    <race>Alien_Asari_Lightblue</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariCommandoElite">
-     <defName>AsariCommandoElite03</defName>
-    <label>elite commando</label>
-    <race>Alien_Asari_Violet</race>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="AsariCommandoElite">
-     <defName>AsariCommandoElite04</defName>
-    <label>elite commando</label>
-    <race>Alien_Asari_Green</race>
   </PawnKindDef>
 
 </Defs>

@@ -33,8 +33,8 @@
 </ThingDef>
   
   
-  <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn" Name="Alien_Asari_Base" Abstract="True">
-  <defName>Alien_Asari_Base</defName>
+  <AlienRace.ThingDef_AlienRace ParentName="BaseAsariPawn">
+  <defName>Alien_Asari</defName>
     <label>asari</label>
     <description>A mono-gender race, the asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.</description>
       <alienRace>
@@ -148,6 +148,12 @@
 			<chemicalSettings>	
 		    </chemicalSettings>
 		</generalSettings>
+		<graphicPaths>
+			<li>
+				<head>Things/Pawn/Humanlike/Asari/Head/</head>
+				<body>Things/Pawn/Humanlike/Asari/Body/</body>
+			</li>
+		</graphicPaths>
         <hairSettings>
             <hasHair>false</hasHair>
         </hairSettings>
@@ -311,61 +317,5 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-
-  <!-- ============================ Asari Blue ========================== -->
-
-  <AlienRace.ThingDef_AlienRace ParentName="Alien_Asari_Base">
-    <defName>Alien_Asari_Blue</defName>
-	<alienRace>
-	        <graphicPaths>
-				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head/</head>
-				</li>
-			</graphicPaths>
-	</alienRace>
-  </AlienRace.ThingDef_AlienRace>
-
-  <!-- ============================ Asari Violet  ========================== -->
-
-  <AlienRace.ThingDef_AlienRace ParentName="Alien_Asari_Base">
-    <defName>Alien_Asari_Violet</defName>
-	<alienRace>
-	        <graphicPaths>
-				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head/</head>
-				</li>
-			</graphicPaths>
-	</alienRace>		
-  </AlienRace.ThingDef_AlienRace>
-  <!-- ============================ Asari Lightblue  ========================== -->
-
-  <AlienRace.ThingDef_AlienRace ParentName="Alien_Asari_Base">
-    <defName>Alien_Asari_Lightblue</defName>
-	<alienRace>
-	        <graphicPaths>
-				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head/</head>
-				</li>
-			</graphicPaths>
-	</alienRace>
-  </AlienRace.ThingDef_AlienRace>
-  
-  <!-- ============================ Asari Green  ========================== -->
-
-  <AlienRace.ThingDef_AlienRace ParentName="Alien_Asari_Base">
-    <defName>Alien_Asari_Green</defName>
-	<alienRace>
-	        <graphicPaths>
-				<li>   
-					<body>Things/Pawn/Humanlike/Asari/Body/</body>
-					<head>Things/Pawn/Humanlike/Asari/Head/</head>
-				</li>
-			</graphicPaths>
-  </alienRace>
-  </AlienRace.ThingDef_AlienRace>
-  
   
 </Defs>

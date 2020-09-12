@@ -13,7 +13,7 @@
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>matriarch</leaderTitle>
-    <factionIconPath>World/WorldObjects/AsariFactionBase2</factionIconPath>
+    <factionIconPath>World/WorldObjects/AsariFactionBase</factionIconPath>
     <colorSpectrum>
       <li>(0.64, 0.42, 0.36)</li>
       <li>(0.47, 0.5, 0.91)</li>
@@ -29,6 +29,7 @@
 			<li>
       <categories>
 			<li>Civil</li>
+			<li>Outlander</li>
       </categories>
       </li>
   	</backstoryFilters>
@@ -70,93 +71,51 @@
       <li>
         <kindDef>Combat</kindDef>
         <options>
-          <AsariColonist01>50</AsariColonist01>
-          <AsariColonist02>50</AsariColonist02>
-          <AsariColonist03>50</AsariColonist03>
-          <AsariSecurityGuard01>90</AsariSecurityGuard01>
-          <AsariSecurityGuard02>90</AsariSecurityGuard02>
-          <AsariSecurityGuard03>90</AsariSecurityGuard03>
-          <AsariMatriarch>250</AsariMatriarch>
-          <AsariRecruit01>100</AsariRecruit01>
-          <AsariRecruit02>100</AsariRecruit02>
-          <AsariRecruit03>100</AsariRecruit03>
-          <AsariHuntresses01>130</AsariHuntresses01>
-          <AsariHuntresses02>130</AsariHuntresses02>
-          <AsariHuntresses03>130</AsariHuntresses03>
-          <AsariCommando01>130</AsariCommando01>
-          <AsariCommando02>130</AsariCommando02>
-          <AsariCommando03>130</AsariCommando03>
-          <AsariCommandoElite01>170</AsariCommandoElite01>
-          <AsariCommandoElite02>170</AsariCommandoElite02>
-          <AsariCommandoElite03>170</AsariCommandoElite03>
-          <AsariCommandoElite04>170</AsariCommandoElite04>
+          <AsariColonist>50</AsariColonist>
+          <AsariSecurityGuard>90</AsariSecurityGuard>
+          <AsariMatriarch>80</AsariMatriarch>
+          <AsariRecruit>100</AsariRecruit>
+          <AsariHuntress>130</AsariHuntress>
+          <AsariCommando>130</AsariCommando>
+          <AsariCommandoElite>170</AsariCommandoElite>
         </options>
       </li>
             <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <AsariColonist01>50</AsariColonist01>
-          <AsariColonist02>50</AsariColonist02>
-          <AsariColonist03>50</AsariColonist03>
-          <AsariSecurityGuard01>90</AsariSecurityGuard01>
-          <AsariSecurityGuard02>90</AsariSecurityGuard02>
-          <AsariSecurityGuard03>90</AsariSecurityGuard03>
-          <AsariMatriarch>250</AsariMatriarch>
-          <AsariRecruit01>100</AsariRecruit01>
-          <AsariRecruit02>100</AsariRecruit02>
-          <AsariRecruit03>100</AsariRecruit03>
-          <AsariHuntresses01>130</AsariHuntresses01>
-          <AsariHuntresses02>130</AsariHuntresses02>
-          <AsariHuntresses03>130</AsariHuntresses03>
+          <AsariColonist>50</AsariColonist>
+          <AsariSecurityGuard>90</AsariSecurityGuard>
+          <AsariMatriarch>80</AsariMatriarch>
+          <AsariRecruit>100</AsariRecruit>
+          <AsariHuntress>130</AsariHuntress>
         </options>
       </li>
 	  <li>
       <kindDef>Trader</kindDef>
         <traders>
-          <AsariTrader01>1</AsariTrader01>
+          <AsariTrader>1</AsariTrader>
         </traders>
         <carriers>
           <Muffalo>2</Muffalo>
           <Dromedary>2</Dromedary>
         </carriers>
         <guards>
-          <AsariSecurityGuard01>90</AsariSecurityGuard01>
-          <AsariSecurityGuard02>90</AsariSecurityGuard02>
-          <AsariSecurityGuard03>90</AsariSecurityGuard03>
-          <AsariRecruit01>100</AsariRecruit01>
-          <AsariRecruit02>100</AsariRecruit02>
-          <AsariRecruit03>100</AsariRecruit03>
-          <AsariHuntresses01>130</AsariHuntresses01>
-          <AsariHuntresses02>130</AsariHuntresses02>
-          <AsariHuntresses03>130</AsariHuntresses03>
-          <AsariCommando01>130</AsariCommando01>
-          <AsariCommando02>130</AsariCommando02>
-          <AsariCommando03>130</AsariCommando03>
+          <AsariSecurityGuard>90</AsariSecurityGuard>
+          <AsariRecruit>100</AsariRecruit>
+          <AsariHuntress>130</AsariHuntress>
+          <AsariCommando>130</AsariCommando>
         </guards>
       </li>
 	  <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <AsariColonist01>50</AsariColonist01>
-          <AsariColonist02>50</AsariColonist02>
-          <AsariColonist03>50</AsariColonist03>
-          <AsariSecurityGuard01>90</AsariSecurityGuard01>
-          <AsariSecurityGuard02>90</AsariSecurityGuard02>
-          <AsariSecurityGuard03>90</AsariSecurityGuard03>
-          <AsariMatriarch>250</AsariMatriarch>
-          <AsariRecruit01>100</AsariRecruit01>
-          <AsariRecruit02>100</AsariRecruit02>
-          <AsariRecruit03>100</AsariRecruit03>
-          <AsariHuntresses01>130</AsariHuntresses01>
-          <AsariHuntresses02>130</AsariHuntresses02>
-          <AsariHuntresses03>130</AsariHuntresses03>
-          <AsariCommando01>130</AsariCommando01>
-          <AsariCommando02>130</AsariCommando02>
-          <AsariCommando03>130</AsariCommando03>
-          <AsariCommandoElite01>170</AsariCommandoElite01>
-          <AsariCommandoElite02>170</AsariCommandoElite02>
-          <AsariCommandoElite03>170</AsariCommandoElite03>
-          <AsariCommandoElite04>170</AsariCommandoElite04>
+          <AsariColonist>50</AsariColonist>
+          <AsariSecurityGuard>90</AsariSecurityGuard>
+          <AsariMatriarch>80</AsariMatriarch>
+          <AsariRecruit>100</AsariRecruit>
+          <AsariHuntress>130</AsariHuntress>
+          <AsariCommando>130</AsariCommando>
+          <AsariCommandoElite>170</AsariCommandoElite>
         </options>
       </li>
     </pawnGroupMakers>
