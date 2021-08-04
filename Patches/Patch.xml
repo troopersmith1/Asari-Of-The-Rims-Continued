@@ -45,7 +45,7 @@
             </operations>
         </match>
     </Operation>
-	
+
 	<Operation Class="PatchOperationFindMod">
 					<mods>
 						<li>Combat Extended</li>
@@ -138,7 +138,7 @@
 					</li>
 
 					<!--Adding Inventory Support-->
-			<!--		<li Class="PatchOperationReplace">
+		<!--		<li Class="PatchOperationReplace">
 						<xpath>/Defs/ThingDef[@Name="BaseAsariPawn"]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
 						<value>
 							<li>CombatExtended.ITab_Inventory</li>
