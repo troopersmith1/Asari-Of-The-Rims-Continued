@@ -165,6 +165,7 @@
       <ComfyTemperatureMin>6</ComfyTemperatureMin>
       <ComfyTemperatureMax>28</ComfyTemperatureMax>
       <LeatherAmount>25</LeatherAmount>
+	  <RoyalFavorValue>5</RoyalFavorValue>
     </statBases>
     <tools>
       <li>
